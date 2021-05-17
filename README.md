@@ -1,1 +1,1 @@
-# trybe-exercises
+Repositório feito para os exercícios feitos na Trybe 
