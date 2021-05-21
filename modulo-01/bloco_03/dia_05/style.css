@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  background-color: rgb(8, 77, 110);
+  padding: 20px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
+#titulo {
+  margin-left: 20px;
+  font-family: monospace;
+  color: white;
+  width: 17.2vw;
+  display: inline-block;
+  background-color: rgb(8, 77, 110);
+}
+
+#titulo a {
+  text-decoration: none;
+  color: white;
+}
+
+#titulo:hover {
+  transform: scale(1.3);
+}
+
+#nav {
+  display: inline-block;
+  list-style: none;
+  margin-left: 17.5%;
+}
+
+#nav ul li {
+  display: inline;
+  background-color: black;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  display: inline-block;
+}
+
+#nav ul li:hover {
+  background-color: rgb(51, 51, 51);
+  transition: background, 0.3s;
+}
+
+#section1 {
+  width: 100vw;
+  height: 40vh;
+  align-items: center;
+  background-color: rgb(51, 51, 51);
+}
+
+#position {
+  width: 200px;
+  margin: auto;
+}
+
+#minha_foto {
+  margin-top: 85px;
+  border-radius: 100%;
+}
+
+#section2 {
+  width: 100vw;
+  height: 60vh;
+  background: linear-gradient(180deg, rgba(51, 51, 51, 1) 0%, rgba(8, 77, 110, 1) 100%);
+}
+
+#list {
+  width: 90%;
+  height: 80%;
+}
+
+#licoes_aprendidas {
+  text-align: initial;
+  margin-left: 25vw;
+  display: inline-block;
+}
+
+#licoes_aprendidas ul li:first-of-type {
+  margin-top: 10px;
+}
+
+#licoes_aprendidas h1 {
+  margin-top: 20vh;
+}
+
+#licoes_a_aprender {
+  margin-top: 20vh;
+  float: right;
+  margin-right: 20vw;
+}
+
+#section3 {
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+}
+
+.lado_esquerdo {
+  margin-left: 210px;
+  margin-top: 60px;
+  width: 400px;
+  background-color: rgb(51, 51, 51);
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+  font-style: italic;
+  font-size: medium;
+  font-weight: 700;
+  line-height: 25px;
+  display: inline-block;
+}
+
+.jornada {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#rodape {
+  background-color: rgb(51, 51, 51);
+  flex-shrink: 0;
+  height: 5vh;
+}
+
+#about {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  font-size: 24px;
+}
+
+.lado_direito {
+  margin-top: 150px;
+  float: right;
+  margin-right: 350px;
+  width: 200px;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  padding: 20px;
+  border-radius: 20px;
+}
