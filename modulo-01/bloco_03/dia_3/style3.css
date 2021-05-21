@@ -1,0 +1,21 @@
+.centralize {
+  text-align: center;
+}
+
+.list {
+  line-height: 30px;
+  font-family: monospace;
+  width: 120px;
+}
+
+.list:hover {
+  border-radius: 20px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.itens:active {
+  font-family:sans-serif;
+}
