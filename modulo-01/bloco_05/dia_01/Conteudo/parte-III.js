@@ -1,0 +1,9 @@
+document.querySelector('#header-container').style.backgroundColor = '#00B069';
+document.querySelector('.emergency-tasks').style.backgroundColor = '#FF9F84';
+document.querySelector('.no-emergency-tasks').style.backgroundColor = '#F9DB5E'
+document.querySelector('#footer-container').style.backgroundColor = '#003533';
+document.querySelector('#footer-container').style.marginTop = '27.4px';
+document.querySelector('.urgent').style.backgroundColor = '#A52EF3';
+document.querySelector('.no-urgent').style.backgroundColor = '#232525';
+document.querySelector('#two').style.backgroundColor = '#232525';
+document.querySelector('#one').style.backgroundColor = '#A52EF3';
