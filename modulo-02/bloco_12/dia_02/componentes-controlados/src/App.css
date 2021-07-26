@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #413e3e
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form h1 {
+  margin-left: 50px;
+}
+
+input, select, textarea {
+  margin-top: 10px;
+  border-radius: 10px
+}
